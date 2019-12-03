@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loby_background"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/logo_image" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="180dp"
+        android:text="1P"
+        android:textColor="#141313"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:text="아이디"
+        android:textColor="#141313"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/firstPlayerId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:ems="15"
+        android:hint="아이디를 입력해주세요"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:text="비밀번호"
+        android:textColor="#141313"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/firstPlayerPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:ems="15"
+        android:hint="비밀번호를 입력해주세요"
+        android:inputType="textPassword" />
+
+    <!--1p 여기까지-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="30dp"
+        android:text="2P"
+        android:textColor="#141313"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:text="아이디"
+        android:textColor="#141313"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/secondPlayerId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:ems="15"
+        android:hint="아이디를 입력해주세요"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:text="비밀번호"
+        android:textColor="#141313"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/secondPlayerPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:ems="15"
+        android:hint="비밀번호를 입력해주세요"
+        android:inputType="textPassword" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/loginButton"
+            android:src="@drawable/login_image"
+            android:background="@null"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="로그인" />
+
+        <ImageButton
+            android:id="@+id/signUpButton"
+            android:src="@drawable/signin_image"
+            android:background="@null"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="회원가입" />
+
+        <ImageButton
+            android:id="@+id/findPasswordButton"
+            android:layout_width="wrap_content"
+            android:layout_marginStart="8dp"
+            android:src="@drawable/find_password_image"
+            android:background="@null"
+            android:layout_height="wrap_content"
+            android:text="비밀번호 찾기" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

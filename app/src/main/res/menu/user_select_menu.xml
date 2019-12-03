@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/firstPlayer"
+        android:icon="@color/design_default_color_primary_dark"
+        android:title="1P"/>
+    <item
+        android:id="@+id/secondPlayer"
+        android:icon="@color/colorPrimaryDark"
+        android:title="2P"/>
+</menu>

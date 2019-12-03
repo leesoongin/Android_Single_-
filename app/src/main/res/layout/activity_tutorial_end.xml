@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/loby_background"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TutorialEndActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="20dp"
+        android:text="튜토리얼 종료"
+        android:textColor="#141313"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="50dp"
+        android:text="1p"
+        android:textColor="#141313"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/FP_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="30dp"
+        android:text="1p점수"
+        android:textColor="#141313"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="50dp"
+        android:text="2p"
+        android:textColor="#141313"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/SP_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="10dp"
+        android:text="2p점수"
+        android:textColor="#141313"
+        android:textSize="20dp" />
+
+
+    <Button
+        android:id="@+id/finishButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="50dp"
+        android:text="튜토리얼 종료"
+        android:textColor="#141313"
+        android:textSize="18dp" />
+
+</LinearLayout>
